@@ -76,3 +76,24 @@ o So, your final output will be 4 lines:
 • ant run -Darg0=input.txt -Darg1=iterations -Darg2=0
 
 • Use the Logger class along with your own debug scheme. The DEBUG_VALUE=0 should be reserved for just printing the 5 output lines shown above.
+
+•	Your directory structure should be the following:
+        
+        •	 lastName_firstName_assign5
+        •	   ---genericDeser
+        •	     ----- README.txt
+        •	     ----- build.xml
+        •	     ----- input.txt 
+        •	     ----- src
+        •	       ---genericDeser
+        •	     	   ----------driver
+        •		        	   ----------Driver
+        •	           ----------util
+        •		              ----------First.java
+        •		              ----------Second.java
+        •		              ----------PopulateObjects.java
+        •	           ----------fileOperations
+        •		              ----------FileProcessor.java
+        •	           ----------other packages that you need
+        •		    	      [package and class(es) to use reflection to create objects
+
